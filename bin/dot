@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Homebrew
+brew update
+brew upgrade
+brew cleanup
+
+# Vim
+vim -i NONE +BundleUpdate +qall
+
+# Oh-My-Zsh
+cd $HOME/.oh-my-zsh
+git pull --rebase --stat origin master
