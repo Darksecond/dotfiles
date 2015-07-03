@@ -2,7 +2,7 @@
 
 # Homebrew
 brew update
-brew upgrade
+brew upgrade --all
 brew cleanup
 
 # Vim
