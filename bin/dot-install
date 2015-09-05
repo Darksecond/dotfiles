@@ -2,6 +2,6 @@
 export DOT_ROOT=~/.files
 source $DOT_ROOT/functions.sh
 
-for f in $DOT_ROOT/update/*; do
+for f in $DOT_ROOT/install/*; do
 	source $f
 done
