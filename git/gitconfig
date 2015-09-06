@@ -1,0 +1,22 @@
+[user]
+	name = Tim Peters
+	email = mail@darksecond.nl
+[color]
+	ui=auto
+[merge]
+	tool = mvimdiff
+
+[url "git://github.com/"]
+	# Read-only
+	insteadOf = gh:
+
+[url "git@github.com:"]
+	#With write access
+	insteadOf = wgh:
+
+[alias]
+	l = "!source ~/.files/git/githelpers && pretty_git_log"
+[core]
+	excludesfile = ~/.files/git/gitignore
+[push]
+	default = simple
